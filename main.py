@@ -15,7 +15,7 @@ nBalls = 50
 size = 640
 balls = list()
 
-root = "C:\\Users\\Mirrorworld\\Desktop\\VJF\\"
+root = os.getcwd() + "\\"
 
 class Bounds:
     minBound = np.array([0, 0], np.float32)
